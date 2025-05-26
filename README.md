@@ -9,7 +9,7 @@ The configurations are just for the purpose of lab testing, they are not hardene
 
 ## Setup environment
 
-Setup was created using containerlab, to install it:
+1 - Setup was created using containerlab, to install it:
 
 ```bash
 bash -c "$(curl -sL https://get.containerlab.dev)"
@@ -18,7 +18,16 @@ bash -c "$(curl -sL https://get.containerlab.dev)"
 > [!WARNING]
 > For MacOS installation, please refer to containerlab [website](https://containerlab.dev/install/)
 
-Also ensure Docker is installed and running on your system.
+2 - Ensure Docker is installed and running on your system.
+
+3 - CEOS image
+
+Option a) use the [EOS downloader](https://github.com/titom73/eos-downloader)
+
+Option b) if you already have the image in your host you can simply import it into docker
+```sh
+$ docker import cEOS-lab-$EOS_VERSION.tar ceos:$EOS_VERSION
+```
 
 ## Containerlab commands
 
