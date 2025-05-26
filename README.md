@@ -2,15 +2,14 @@
 
 ## Introduction
 
-EOS lab to play with segment routing and UnEqual Cost Multi-Path (UCMP), it ws build using Containerlab. The configurations are just for the purpose of the lab, they are not hardened/etc...
+EOS lab to play with segment routing and UnEqual Cost Multi-Path (UCMP), created using Containerlab.
+The configurations are just for the purpose of lab testing, they are not hardened/etc...
 
-## How to Install
+2.0.0.0/8 route received via two different eBGP peering points over two different interfaces wiht different speeds (1G and 10G), usage of extended communities and IS-IS SR will allow router to load balance using different weights that reflect the different interface speeds.
 
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/sr-ucmp.git
-   cd sr-ucmp
-   ```
+## How to use
+
+1. Configurations are provided, the setup itself was created using ContainerlabClone this repository:
 2. Install [Containerlab](https://containerlab.dev/install/).
 3. Ensure Docker is installed and running on your system.
 
