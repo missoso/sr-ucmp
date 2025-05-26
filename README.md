@@ -40,32 +40,10 @@ To destroy the lab:
 containerlab destroy -t topology.clab.yaml
 ```
 
+### Credentials
+
+- User: admin (no password)
+
 ## Network Topology
-
-
-╭──────────────────────┬─────────────┬─────────┬────────────────╮
-│         Name         │  Kind/Image │  State  │ IPv4/6 Address │
-├──────────────────────┼─────────────┼─────────┼────────────────┤
-│ clab-sr-ucmp-r1-core │ ceos        │ running │ 192.168.2.111  │
-│                      │ ceos:4.33.3 │         │ N/A            │
-├──────────────────────┼─────────────┼─────────┼────────────────┤
-│ clab-sr-ucmp-r2-core │ ceos        │ running │ 192.168.2.112  │
-│                      │ ceos:4.33.3 │         │ N/A            │
-├──────────────────────┼─────────────┼─────────┼────────────────┤
-│ clab-sr-ucmp-r3-core │ ceos        │ running │ 192.168.2.113  │
-│                      │ ceos:4.33.3 │         │ N/A            │
-├──────────────────────┼─────────────┼─────────┼────────────────┤
-│ clab-sr-ucmp-r4-gw   │ ceos        │ running │ 192.168.2.114  │
-│                      │ ceos:4.33.3 │         │ N/A            │
-├──────────────────────┼─────────────┼─────────┼────────────────┤
-│ clab-sr-ucmp-r5-gw   │ ceos        │ running │ 192.168.2.115  │
-│                      │ ceos:4.33.3 │         │ N/A            │
-├──────────────────────┼─────────────┼─────────┼────────────────┤
-│ clab-sr-ucmp-r6-ebgp │ ceos        │ running │ 192.168.2.221  │
-│                      │ ceos:4.33.3 │         │ N/A            │
-├──────────────────────┼─────────────┼─────────┼────────────────┤
-│ clab-sr-ucmp-r7-ebgp │ ceos        │ running │ 192.168.2.222  │
-│                      │ ceos:4.33.3 │         │ N/A            │
-╰──────────────────────┴─────────────┴─────────┴────────────────╯
 
 [![Network Topology](img/topology.clab.drawio.png)](img/topology.clab.drawio.png)
