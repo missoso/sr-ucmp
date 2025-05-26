@@ -29,4 +29,4 @@ containerlab destroy -t topology.clab.yaml
 
 The following diagram shows the network topology used in this project:
 
-[![Network Topology](img/topology.clab.drawio)](img/topology.clab.drawio)
+[![Network Topology](img/topology.clab.drawio.png)](img/topology.clab.drawio.png)
